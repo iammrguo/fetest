@@ -1,0 +1,70 @@
+body {text-align: center; font-size: 10px; font-family: Helvetica,"microsoft yahei"; padding: 0 0; margin: 0 0;}
+html, body {font-size: 10px;}
+hr {color: rgb(221,221,221);}
+sup {font-size: .5rem;}
+.cred {color: red;}
+.cgrey {color: rgb(160,160,160);}
+.content {margin: 0 auto;}
+
+.logo {position: absolute; left: 15px; top: 10px;}
+.logo img {width: 75px;}
+.clearfloat {zoom: 1;}
+.clearfloat:after {display: block; clear: both; content: ""; visibility: hidden; height: 0;}
+.blank {clear: both;}
+.header {position: relative; text-align: center; height: 44px; border-bottom: 1px solid #ddd;}
+.actname {margin: 0 auto 0 10px; height: 100%; line-height: 44px;}
+.actname span {font-size: 2rem;}
+
+.activity {margin: 0 auto; background-color: rgb(248,248,248); padding: 25px 30px 15px;}
+.act_img img {height: 115px;}
+.act_snap {margin-top: 15px; margin-bottom: 14px;}
+.act_snap span {font-size: 2rem;}
+.act_des {text-align: left; color: rgb(160,160,160); margin: 0 auto; padding-left: 12px; padding-right: 12px;}
+.act_des span {line-height: 20px; font-size: 1.2rem;}
+.act_btn {color: white; background-color: #ee4433; height: 45px; line-height: 45px; margin-top: 28px;}
+.act_btn span {font-size: 1.6rem;}
+
+.recommend {margin-top: 15px;}
+/*为你推荐*/
+.recommend_title {color: rgb(160,160,160); font-size: 1.4rem; padding: 0px 43px; display: -webkit-box;}
+.rec_text {padding: 0px 18px; font-style: normal; font-weight: 400;}
+.rec_hr {display: block; border-bottom: 1px solid #ddd; -webkit-box-flex: 1; height: 0; padding-top: 10px;}
+/*推荐内容*/
+.rec_items {padding: 0px 15px; border-bottom: 1px solid #ddd;}
+.rec_item {width: 100%; height: 90px; position: relative; padding: 0px 0px 24px; border-bottom: 1px solid #ddd; margin-bottom: 24px;}
+.rec_item:last-child {border: 0px; margin-bottom: 0px;}
+.rec_img {position: absolute; left: 0px;}
+.rec_img img {width: 120px; height: 90px;}
+.rec_des {position: absolute; left: 130px; right: 0px;}
+.rec_head {display: -webkit-box; margin: 0 0; -webkit-box-align: center; line-height: 16px; text-align: left;}
+.rec_title {display: block; max-width: 67%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 1.6rem; font-style: normal; padding-left: 0px;}
+.rec_typetag {display: block; padding: 0 3px; border-radius: 2px; color: #9abe54; border: 1px solid #9abe54; font-size: 1.2rem; overflow: hidden; height: 14px; line-height: 14px;}
+.rec_detail {position: relative; margin-top: 0px;}
+.rec_detail>div {float:left;}
+.rec_detail_price {width: 100%; text-align: left; margin-top: 10px; line-height: 14px;}
+.rec_detail_price {font-size: 1.4rem; color: red; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.rec_detail_pos {margin-top: 10px; text-align: left; line-height: 12px;}
+.rec_detail_pos {color: #999; font-size: 1.2rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.rec_detail_tel {position: absolute; right: 0px; top: 20px;}
+.rec_detail_tel img {width: 24px;}
+.rec_hongbao_wrapper {height: 14px; margin-top: 13px; text-align: left;}
+.rec_hongbao {display: inline; color: rgb(247,112,150); border: rgb(247,112,150) 1px solid; padding: 1px 1px; height: 12px; line-height: 12px;}
+.rec_hongbao {font-size: 1.2rem;}
+/*查看更多*/
+.more {height: 50px; line-height: 50px; border-bottom: 1px solid #ddd; display: -webkit-box; -webkit-box-pack: center;}
+.more>span {font-size: 1.6rem; }
+.more>img  {display: block; height: 20px; margin-left: 6px; margin-top: 15px;}
+
+.foo_top {height: 44px; line-height: 44px; border-top: 1px solid #ddd; margin-top: 20px; overflow: hidden;}
+.foo_nav {list-style: none; width: 100%; margin: 0 0; display: -webkit-box; height: 52px; box-sizing: border-box; overflow-x: auto; padding-left: 0px;}
+.foo_nav li {margin-left: 24px; color: rgb(160,160,160); font-size: 1.6rem; font-weight: 100;}
+.foo_nav li:first-child {margin-left: 15px;}
+
+.foo_bottom {background-color: rgb(160,160,160); color: white; padding: 10px 20px; height: 50px; position: relative;}
+.page_type {position: relative;}
+.foo_bottom>div>div {position: absolute; font-size: 1.6rem;}
+.foo_bottom>div>div:nth-child(1) {right: 90px; top: -10px;}
+.foo_bottom>div>div:nth-child(2) {right: 70px;}
+.foo_bottom>div>div:nth-child(3) {right: 0px;}
+.arrow {position: absolute; width: 0; height: 0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:5px solid white;}
+.copy_right {position: absolute; left: 50%; margin-left: -70px; bottom: 12px; color: rgb(102,102,102); font-size: 1rem;}
