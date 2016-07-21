@@ -1,4 +1,9 @@
-body {text-align: center; font-size: 10px; font-family: Helvetica,"microsoft yahei"; padding: 0 0; margin: 0 0;}
+body {
+	text-align: center;
+	font-size: 10px;
+	font-family: Helvetica,"microsoft yahei";
+	padding: 0 0; margin: 0 0;
+}
 html, body {font-size: 10px;}
 hr {color: rgb(221,221,221);}
 sup {font-size: .5rem;}
