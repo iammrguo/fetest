@@ -1,0 +1,11 @@
+{
+  "name": "july-festivel",
+  "version": "0.1.0",
+  "author": "Guo Shuaibin",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-compass": "^0.9.0"
+  }
+}
