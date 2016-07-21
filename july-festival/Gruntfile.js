@@ -23,8 +23,8 @@ module.exports = function(grunt){
 		compass: {
 			dist: {
 				options: {
-					sassDir: 'assets/sass',
-					cssDir: 'assets/css',
+					sassDir: 'sass',
+					cssDir: 'stylesheets',
 					outputStyle: 'expanded'
 				}
 			}
