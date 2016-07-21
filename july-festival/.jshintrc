@@ -1,0 +1,4 @@
+{
+    "curly": true,    // true: Require {} for every new block or scope
+    "eqnull": true  // true: Tolerate use of `== null`
+}
