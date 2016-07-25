@@ -1,39 +1,439 @@
-/*
-Error: Invalid CSS after "$greyLineColor": expected selector or at-rule, was ": #ddd;"
-        on line 2 of d:/focus/fetest/july-festival/sass/test.scss
+@charset "UTF-8";
+/* line 4, ../sass/test.scss */
+body {
+  text-align: center;
+  font-size: 10px;
+  font-family: Helvetica, "microsoft yahei";
+  padding: 0 0;
+  margin: 0 0;
+}
 
-1: $fontStyle: Helvetica,"microsoft yahei",
-2: $greyLineColor: #ddd;
-3: 
-4: body {
-5: 	text-align: center;
-6: 	font-size: 10px;
-7: 	font-family: $fontStyle;
+/* line 10, ../sass/test.scss */
+html, body {
+  font-size: 10px;
+}
 
-Backtrace:
-d:/focus/fetest/july-festival/sass/test.scss:2
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `call'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-C:/Ruby22-x64/bin/compass:23:in `load'
-C:/Ruby22-x64/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"$greyLineColor\": expected selector or at-rule, was \": #ddd;\"\A         on line 2 of d:/focus/fetest/july-festival/sass/test.scss\A \A 1: $fontStyle: Helvetica,\"microsoft yahei\",\A 2: $greyLineColor: #ddd;\A 3: \A 4: body {\A 5: 	text-align: center;\A 6: 	font-size: 10px;\A 7: 	font-family: $fontStyle;"; }
+/* line 11, ../sass/test.scss */
+hr {
+  color: #dddddd;
+}
+
+/* line 12, ../sass/test.scss */
+sup {
+  font-size: .5rem;
+}
+
+/* line 13, ../sass/test.scss */
+.cred {
+  color: red;
+}
+
+/* line 14, ../sass/test.scss */
+.cgrey {
+  color: #a0a0a0;
+}
+
+/* line 15, ../sass/test.scss */
+.content {
+  margin: 0 auto;
+}
+
+/* line 17, ../sass/test.scss */
+.logo {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+/* line 18, ../sass/test.scss */
+.logo img {
+  width: 75px;
+}
+
+/* line 19, ../sass/test.scss */
+.clearfloat {
+  zoom: 1;
+}
+
+/* line 20, ../sass/test.scss */
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+/* line 21, ../sass/test.scss */
+.blank {
+  clear: both;
+}
+
+/* line 22, ../sass/test.scss */
+.header {
+  position: relative;
+  text-align: center;
+  height: 44px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 23, ../sass/test.scss */
+.actname {
+  margin: 0 auto 0 10px;
+  height: 100%;
+  line-height: 44px;
+}
+
+/* line 24, ../sass/test.scss */
+.actname span {
+  font-size: 2rem;
+}
+
+/* line 26, ../sass/test.scss */
+.activity {
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  padding: 25px 30px 15px;
+}
+
+/* line 27, ../sass/test.scss */
+.act_img img {
+  height: 115px;
+}
+
+/* line 28, ../sass/test.scss */
+.act_snap {
+  margin-top: 15px;
+  margin-bottom: 14px;
+}
+
+/* line 29, ../sass/test.scss */
+.act_snap span {
+  font-size: 2rem;
+}
+
+/* line 30, ../sass/test.scss */
+.act_des {
+  text-align: left;
+  color: #a0a0a0;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* line 31, ../sass/test.scss */
+.act_des span {
+  line-height: 20px;
+  font-size: 1.2rem;
+}
+
+/* line 32, ../sass/test.scss */
+.act_btn {
+  color: white;
+  background-color: #ee4433;
+  height: 45px;
+  line-height: 45px;
+  margin-top: 28px;
+}
+
+/* line 33, ../sass/test.scss */
+.act_btn span {
+  font-size: 1.6rem;
+}
+
+/* line 35, ../sass/test.scss */
+.recommend {
+  margin-top: 15px;
+}
+
+/*为你推荐*/
+/* line 37, ../sass/test.scss */
+.recommend_title {
+  color: #a0a0a0;
+  font-size: 1.4rem;
+  padding: 0px 43px;
+  display: -webkit-box;
+}
+
+/* line 38, ../sass/test.scss */
+.rec_text {
+  padding: 0px 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* line 39, ../sass/test.scss */
+.rec_hr {
+  display: block;
+  border-bottom: 1px solid #ddd;
+  -webkit-box-flex: 1;
+  height: 0;
+  padding-top: 10px;
+}
+
+/*推荐内容*/
+/* line 41, ../sass/test.scss */
+.rec_items {
+  padding: 0px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 42, ../sass/test.scss */
+.rec_item {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  padding: 0px 0px 24px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 24px;
+}
+
+/* line 43, ../sass/test.scss */
+.rec_item:last-child {
+  border: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 44, ../sass/test.scss */
+.rec_img {
+  position: absolute;
+  left: 0px;
+}
+
+/* line 45, ../sass/test.scss */
+.rec_img img {
+  width: 120px;
+  height: 90px;
+}
+
+/* line 46, ../sass/test.scss */
+.rec_des {
+  position: absolute;
+  left: 130px;
+  right: 0px;
+}
+
+/* line 47, ../sass/test.scss */
+.rec_head {
+  display: -webkit-box;
+  margin: 0 0;
+  -webkit-box-align: center;
+  line-height: 16px;
+  text-align: left;
+}
+
+/* line 48, ../sass/test.scss */
+.rec_title {
+  display: block;
+  max-width: 67%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  font-style: normal;
+  padding-left: 0px;
+}
+
+/* line 49, ../sass/test.scss */
+.rec_typetag {
+  display: block;
+  padding: 0 3px;
+  border-radius: 2px;
+  color: #9abe54;
+  border: 1px solid #9abe54;
+  font-size: 1.2rem;
+  overflow: hidden;
+  height: 14px;
+  line-height: 14px;
+}
+
+/* line 50, ../sass/test.scss */
+.rec_detail {
+  position: relative;
+  margin-top: 0px;
+}
+
+/* line 51, ../sass/test.scss */
+.rec_detail > div {
+  float: left;
+}
+
+/* line 52, ../sass/test.scss */
+.rec_detail_price {
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 14px;
+}
+
+/* line 53, ../sass/test.scss */
+.rec_detail_price {
+  font-size: 1.4rem;
+  color: red;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 54, ../sass/test.scss */
+.rec_detail_pos {
+  margin-top: 10px;
+  text-align: left;
+  line-height: 12px;
+}
+
+/* line 55, ../sass/test.scss */
+.rec_detail_pos {
+  color: #999;
+  font-size: 1.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 56, ../sass/test.scss */
+.rec_detail_tel {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+/* line 57, ../sass/test.scss */
+.rec_detail_tel img {
+  width: 24px;
+}
+
+/* line 58, ../sass/test.scss */
+.rec_hongbao_wrapper {
+  height: 14px;
+  margin-top: 13px;
+  text-align: left;
+}
+
+/* line 59, ../sass/test.scss */
+.rec_hongbao {
+  display: inline;
+  color: #f77096;
+  border: #f77096 1px solid;
+  padding: 1px 1px;
+  height: 12px;
+  line-height: 12px;
+}
+
+/* line 60, ../sass/test.scss */
+.rec_hongbao {
+  font-size: 1.2rem;
+}
+
+/*查看更多*/
+/* line 62, ../sass/test.scss */
+.more {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ddd;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+}
+
+/* line 63, ../sass/test.scss */
+.more > span {
+  font-size: 1.6rem;
+}
+
+/* line 64, ../sass/test.scss */
+.more > img {
+  display: block;
+  height: 20px;
+  margin-left: 6px;
+  margin-top: 15px;
+}
+
+/* line 66, ../sass/test.scss */
+.foo_top {
+  height: 44px;
+  line-height: 44px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* line 67, ../sass/test.scss */
+.foo_nav {
+  list-style: none;
+  width: 100%;
+  margin: 0 0;
+  display: -webkit-box;
+  height: 52px;
+  box-sizing: border-box;
+  overflow-x: auto;
+  padding-left: 0px;
+}
+
+/* line 68, ../sass/test.scss */
+.foo_nav li {
+  margin-left: 24px;
+  color: #a0a0a0;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+/* line 69, ../sass/test.scss */
+.foo_nav li:first-child {
+  margin-left: 15px;
+}
+
+/* line 71, ../sass/test.scss */
+.foo_bottom {
+  background-color: #a0a0a0;
+  color: white;
+  padding: 10px 20px;
+  height: 50px;
+  position: relative;
+}
+
+/* line 72, ../sass/test.scss */
+.page_type {
+  position: relative;
+}
+
+/* line 73, ../sass/test.scss */
+.foo_bottom > div > div {
+  position: absolute;
+  font-size: 1.6rem;
+}
+
+/* line 74, ../sass/test.scss */
+.foo_bottom > div > div:nth-child(1) {
+  right: 90px;
+  top: -10px;
+}
+
+/* line 75, ../sass/test.scss */
+.foo_bottom > div > div:nth-child(2) {
+  right: 70px;
+}
+
+/* line 76, ../sass/test.scss */
+.foo_bottom > div > div:nth-child(3) {
+  right: 0px;
+}
+
+/* line 77, ../sass/test.scss */
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+}
+
+/* line 78, ../sass/test.scss */
+.copy_right {
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  bottom: 12px;
+  color: #666666;
+  font-size: 1rem;
+}
