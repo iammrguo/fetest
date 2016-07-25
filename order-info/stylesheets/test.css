@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/* line 8, ../sass/test.scss */
+body {
+  margin: 0 0;
+  padding: 0 0;
+  /*min-width: 230px;*/
+  text-align: center;
+  font-family: Helvetica, "microsoft yahei";
+  background-color: #f5f5f5;
+}
+
+/* line 17, ../sass/test.scss */
+html, body {
+  font-size: 10px;
+}
+
+/* line 21, ../sass/test.scss */
+p {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+/* 清除浮动 */
+/* line 27, ../sass/test.scss */
+.clearfloat {
+  zoom: 1;
+}
+
+/* line 30, ../sass/test.scss */
+.clearfloat:after {
+  display: block;
+  clear: both;
+  height: 0;
+  content: "";
+  visibility: hidden;
+}
+
+/* 两端对齐 */
+/* line 39, ../sass/test.scss */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 42, ../sass/test.scss */
+.text-justify:after {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  content: '';
+  overflow: hidden;
+}
+
+/* header */
+/* line 51, ../sass/test.scss */
+header {
+  position: relative;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 60, ../sass/test.scss */
+header span {
+  color: #ee4433;
+  font-size: 2rem;
+}
+
+/* line 65, ../sass/test.scss */
+.header-img {
+  position: absolute;
+  top: 7px;
+  width: 30px;
+}
+
+/* line 71, ../sass/test.scss */
+.header-img:first-child {
+  left: 18px;
+}
+
+/* line 75, ../sass/test.scss */
+.header-img:last-child {
+  right: 18px;
+}
+
+/* 红包 */
+/* line 80, ../sass/test.scss */
+.hongbao {
+  position: relative;
+  margin-top: 13px;
+  height: 88px;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 89, ../sass/test.scss */
+.hongbao-img {
+  position: absolute;
+  left: 18px;
+  top: 14px;
+  width: 60px;
+}
+
+/* line 96, ../sass/test.scss */
+.hongbao-info {
+  position: absolute;
+  left: 90px;
+  right: 0px;
+  padding: 0 3px;
+  text-align: left;
+}
+
+/* line 104, ../sass/test.scss */
+.hongbao-info p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 110, ../sass/test.scss */
+.hongbao-info p:nth-child(1) {
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 2rem;
+}
+
+/* line 116, ../sass/test.scss */
+.hongbao-info p:nth-child(2) {
+  position: relative;
+  margin-top: 12px;
+  line-height: 15px;
+}
+
+/* line 122, ../sass/test.scss */
+.hongbao-info p em, .hongbao-info p a {
+  line-height: 15px;
+  color: #ee4433;
+  font-style: normal;
+}
+
+/* line 128, ../sass/test.scss */
+.hongbao-info p em {
+  font-size: 1.8rem;
+}
+
+/* line 132, ../sass/test.scss */
+.hongbao-info p a {
+  position: absolute;
+  top: 1px;
+  right: 18px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* 表单 */
+/* line 141, ../sass/test.scss */
+.form-info {
+  position: relative;
+  margin-top: 12px;
+  font-size: 1.6rem;
+  background-color: white;
+}
+
+/* line 148, ../sass/test.scss */
+.form-item {
+  display: -webkit-box;
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 155, ../sass/test.scss */
+.form-item:last-child {
+  border-bottom: none;
+}
+
+/* line 159, ../sass/test.scss */
+.item-name {
+  margin: 0 10px 0 15px;
+  width: 64px;
+}
+
+/* line 164, ../sass/test.scss */
+.item-value {
+  -webkit-box-flex: 1;
+  text-align: left;
+}
+
+/* line 169, ../sass/test.scss */
+.item-value input {
+  width: 100%;
+  border: none;
+  font-size: 1.6rem;
+  font-family: Helvetica, "microsoft yahei";
+  padding: 13px 5px;
+}
+
+/* line 177, ../sass/test.scss */
+.code {
+  margin-top: 6px;
+  margin-right: 15px;
+  width: 95px;
+  height: 30px;
+  line-height: 30px;
+  color: #999999;
+  border: 1px solid #ddd;
+}
+
+/* line 187, ../sass/test.scss */
+warnning {
+  display: none;
+  position: absolute;
+  top: 27px;
+  left: 91px;
+  right: 91px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  background-color: #606060;
+  opacity: 0.5;
+  border-radius: 6px;
+}
+
+/* line 203, ../sass/test.scss */
+.form-agree {
+  position: relative;
+  margin-top: 12px;
+  padding-left: 15px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 1.2rem;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* line 215, ../sass/test.scss */
+.form-agree input {
+  position: absolute;
+  margin: 0 0;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #ebebeb;
+  background-color: white;
+}
+
+/* line 224, ../sass/test.scss */
+.form-agree span {
+  display: block;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 0px;
+  margin: 0 0;
+  box-sizing: border-box;
+  border: 1px solid #ebebeb;
+  background-color: white;
+}
+
+/* line 236, ../sass/test.scss */
+.form-agree label {
+  position: absolute;
+  left: 38px;
+  color: #999999;
+}
+
+/* line 242, ../sass/test.scss */
+.form-agree a {
+  text-decoration: none;
+  color: #ee4433;
+}
+
+/* line 247, ../sass/test.scss */
+.form-btn {
+  margin: 28px 15px 0;
+  min-width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.7rem;
+  color: white;
+  background-color: #ee4433;
+}
+
+/* line 257, ../sass/test.scss */
+.form-btn-disabled {
+  background-color: #ff8282;
+}
+
+/* input框字体颜色 */
+/* line 262, ../sass/test.scss */
+::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+
+/* line 265, ../sass/test.scss */
+::-moz-placeholder {
+  color: #cfcfcf;
+}
